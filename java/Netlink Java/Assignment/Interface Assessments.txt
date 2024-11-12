@@ -1,0 +1,44 @@
+1. Create a interface vehicles and than craete class bicycle, car, bike………, they have common functionalities. So we make an interface and put all these common functionalities. And lets Bicycle, Bike, car ….etc implement all these functionalities in their own class in their own way.
+
+
+
+2. craete a program and elaborate multiple inheritance.
+
+
+
+3. craete a program and elaborate Adapter class concept.
+
+
+
+4. create a program for and discribe default and static methood inside interface and why we use default method inside interface and why we use static method inside interface.
+
+
+
+5. create a program and create class Student and declare variables stdName, stdRollNo, and stdId as private and assign value to tham variabl by get and set method.
+
+
+
+6. create a program and explain tightly incapsulated class.
+
+
+
+7. create a program, we will make a class ‘Rectangle’ and declare the variable length and breadth as private. One Constructor will be used for initializing the value of variables.
+
+
+
+(( When an object is created, the constructor will be called and the default value of the instance variables will be assigned. ))
+
+
+
+8. Drawable interface has only one method. Its implementation is provided by Rectangle and Circle classes. In a real scenario, an interface is defined by someone else, but its implementation is provided by different implementation providers.
+
+
+
+9. create two interfaces Inf1 and Inf2. Inf2 extends Inf1 so If class implements the Inf2 it has to provide implementation of all the methods of interfaces Inf2 as well as Inf1.
+
+
+
+10. If there are two or more same methods in two interfaces and a class implements both interfaces, implementation of the method once is enough implement this question in program.
+
+
+

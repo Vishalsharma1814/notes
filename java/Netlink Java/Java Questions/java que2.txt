@@ -1,0 +1,330 @@
+
+Java Interview Questions
+
+What is Java?
+Java is a distributed application software
+Java is the high-level, object-oriented programming
+Java is API Document.
+
+What are differences between C, C++ and Java?
+Why java or What are the features in JAVA?
+Features of Java:
+
+Oops concepts
+Class
+object
+Inheritance
+Encapsulation
+Polymorphism
+Abstraction
+Platform independent: Java is System independent as well as Platform independent because it works with diff System hw as well as Diff Platforms(diff operating Systems)
+High Performance: JIT (Just In Time compiler) enables high performance in Java. JIT converts the bytecode into machine language and then JVM starts the
+Multi-threaded: A flow of execution is known as a Thread. JVM creates a thread which is called main thread. The user can create multiple threads by extending the thread class or by implementing Runnable
+Simple: Java having simple Syntax rules. easy to learn. Complicated things like pointers and multiple inheritance is not
+Portable: Java supports write-once-run-anywhere approach. We can execute the Java program on every machine. Java program (.java) is converted to bytecode (.class) which can be easily run on every machine.
+Secured: Java is secured because it doesn’t use explicit Java also provides the concept of ByteCode and Exception handling which makes it more secured.
+Robust: Java is a strong programming language as it uses strong memory management. The concepts like Automatic garbage collection, Exception handling, etc. make it more
+Architecture Neutral: Java is architectural neutral as it is not dependent on the architecture. In C, the size of data types may vary according to the architecture (32 bit or 64 bit) which doesn’t exist in Java.
+Interpreted: Java uses the Just-in-time (JIT) interpreter along with the compiler for the program
+Distributed: Java is distributed because it facilitates users to create distributed applications in Java. RMI and EJB are used for creating distributed applications. This feature of Java makes us able to access files by calling the methods from any machine on the
+Dynamic: Java is a dynamic language. It supports dynamic loading of classes. It means classes are loaded on demand. It also supports functions from its native languages, i.e., C and C++.
+What is difference between compiler and interpreter ?
+
+Why java not support pointer?
+A pointer is a variable which can hold the address of another variable or object.
+
+But, Java does not support pointer due to security reason, because if you get the address of any variable you could access it anywhere from the program without any restriction even variable is private.
+
+
+What is java comments ?
+The java comments are statements that are not executed by the compiler and interpreter. The comments can be used to provide information or explanation about the variable, method, class or any statement. It can also be used to hide program code for specific time.
+
+Comments are not consider as java code used build communication between programmers and end users?
+
+What are Types of Java Comments?
+There are 3 types of comments in java.
+1. Single Line Comment
+
+The single line comment is used to comment only one line. EX:
+// this is Our application
+
+2. Multi Line Comment
+The multi line comment is used to comment several lines of code.
+
+EX:
+/*
+This is multiline comment
+User for give big description purpose Give n no line etc
+*/
+
+3. Documentation Comment
+/**
+This is doc comment
+User for give big description purpose Give n no line etc
+*/
+
+Difference Between Multiline and Document Type Comments in java?
+Multiline Comments are used build communication between programmers Document Type Comments are used build communication between programmer and end users. Javadoc tool generates html description for Document Type Comments
+
+Java Package Interview Questions
+What is a package?
+Package is a collection class And Interfaces those are collection of methods they can perform some action.
+
+What is the difference between #include and import?
+#include is used in C or C++ programing witch is used to go to standard library and copy the entire header file code in to a C/C++ programs. So the program size increases unnecessarily wasting memory & processor time.
+
+Import statement used in java programming uses to pass Ref for particular package .package is saved once used for N no of times. Witch avoids memory wastage problems.
+
+What Is The Super Class Of All Classes?
+Java.lang.Object is a Super class for classes
+
+What are the advantages of java package?
+Packages hide classes & interfaces. Thus they provide protection for them.
+The classes of one Package are isolated from the classes of another Package. So it is possible to use same names for the classes into different packages.
+Using package concept we can create our own Packages & also we can extend already available Packages.
+Packages provide re usability of code.
+Package is used to categorize the classes and interfaces so that they can be easily maintained
+Application development time is less, because reuse the code
+Application memory space is less (main memory)
+Application execution time is less
+Application performance is enhance (improve)
+Redundancy (repetition) of code is minimized
+Package provides access
+Package removes naming
+Can we import same package/class twice? Will the JVM load the package twice at runtime?
+Yes even though programmer whitens same package class twice in the program Jvm loads it once only
+
+Can u Explain Rules to create user defined package?
+package statement should be the first statement of any package program.
+Choose an appropriate class name or interface name and whose modifier must be public.
+Any package program can contain only one public class or only one public interface but it can contain any number of normal classes.
+Package program should not contain any main class (that means it should not contain any main())
+modifier of constructor of the class which is present in the package must be public. (This is not applicable in case of interface because interface have no constructor.)
+The modifier of method of class or interface which is present in the package must be public (This rule is optional in case of interface because interface methods by default public)
+Every package program should be save either with public class name or public Interface name
+ 
+
+Update Your Skills form Our Experts:  Core Java Online Training
+
+Which package is always imported by default?
+By default java.lang package imported
+
+How many ways we can use packages classes
+
+Method-I By passing complete address: Java.util.Scanner sc=new java.util.Scanner(System.in);
+Method-II: By using import stmt: import java.util.*;
+
+Scanner sc=new Scanner(System.in);
+
+Java Main Method Interview Questions
+Can we execute java program without main method?
+No, you can’t run java class without main method.
+
+Before Java 7, you can run java class by using static initializers. But, from Java 7 it is not possible.
+
+Can we change return type of main() method?
+No, the return type of main() method must be void only. Any other type is not acceptable.
+
+Can we declare main() method as private or protected or with no access modifier?
+No, main() method must be public. You can’t define main() method as private or protected or with no access
+This is because to make the main() method accessible to JVM. If you define main() method other than public, compilation will be successful but you will get run time error as no main method
+Can We Overload main() method?
+Can java class Suports more Than One Main Method
+
+Yes, We can overload main() method. A Java class can have any number of main() methods. But to run the java class, class should have main()
+
+method with signature as “public static void main(String[] args)”. If you do any modification to this signature, compilation will be successful.
+But, you can’t run the java program. You will get run time error as main method not
+Can main() method take an argument other than string array?
+No, argument of main() method must be string array.
+
+But, from the introduction of var args you can pass var args of string type as an argument to main() method. Again, var args are nothing but the arrays.
+Java Data type Interview Questions
+What are the primitive data types in Java ?
+There are eight primitive data types.
+
+byte
+short
+int
+long
+float
+double
+boolean
+char
+What is the default value of  variables in Java?
+
+What is uni code?
+Uni code is a standard to include the alphabet from all human languages in java. Uni code system uses 2 bytes to represent a character
+
+What is the default value of local variables in Java?
+ There is no default value for local variables
+What is Widening?
+Is process of conversion lower data types into higher data types
+
+What is Narrowing ?
+ Is process of conversion Higher data types into Lower data types
+
+What is ASCII?
+American Standard Code for Information Interchange. It is a standard numarical value asigened to every key in keybord.its range is 0 to 255.
+
+EX: A value=65
+
+What are the Types of Variables in JAVA ?
+Java has 3 kinds of variables. They are Local variables, Instance variables (fields) and  Static variables (class variables)
+
+1.LOCAL VARIABLES
+A local variable is defined inside a method block. A block begins with an opening curly brace and ends with a closing curly brace.
+The scope of the variable is limited within the block. In other words, local variables are visible only in the block (method) in which they are declared.
+
+2.INSTANCE VARIABLES
+Instance variables are declared inside a class, but outside of any method / constructor / any block. They are also referred to as fields.
+Objects store their individual states in these fields. Their values are unique to each object (instance of class) and hence they are called as instance variables.
+Example – The ‘employeeId’ field of the Employee class will have a unique value for each of its object. (Consider Emp1, Emp2… as objects of the class Employee, then each object will have unique value for the property ‘employee-id’).
+
+3.STATIC VARIABLES (CLASS VARIABLES)
+Static variables belong to the class rather than objects in which they are declared. The keyword ‘static’ is prefixed before the variable to represent static variables. Only one copy of this variable is maintained for all the objects.
+
+What is this key word in java?
+“this”is a predefined instance variable to hold current object reference
+
+Can we use this in static methods?
+No we cannot use this in static methods. if we try to use compile time error will come :Cannot use this in a static context
+
+What are all the differences between this and super keyword?
+This refers to current class object where as super refers to super class object
+Using this we can access all non static methods and variables. Using super we can access super class variable and methods from sub class.
+Using this(); call we can call other constructor in same class. Using super we can call super class constructor from sub class constructor.
+Is it possible to use this in static blocks?
+No its not possible to use this keyword in static block.
+Can we use this to refer static members?
+ Yes its possible to access static variable of a class using this but its discouraged and as per best practices this should be used on non static reference
+
+Can we pass this as parameter of method?
+Yes we can pass this as parameter in a method
+Can we return this from a method?
+Yes We can return this as current class object. public class B{
+int a;
+public int getA() { return a;
+}
+public void setA(int a) { this.a = a;
+}
+
+B show(){ return this;
+}
+
+public static void main(String[] args) { B obj = new B();
+obj.setA(10); System.out.println(obj.getA()); B obj2= obj.show(); System.out.println(obj2.getA());
+
+}
+}
+
+Can we call method on this keyword from constructor?
+Yes we can call non static methods from constructor using this keyword.
+What is the use of final keyword in java?
+By using final keyword we can make
+Final class
+Final method
+Final variables
+If we declare any class as final we can not extend that class
+If we declare any method as final it can not be overridden in sub class
+If we declare any variable as final its value unchangeable once assigned.
+What is the main difference between abstract method and final method?
+Abstract methods must be overridden in sub class where as final methods can not be overridden in sub class
+What is the actual use of final class in java?
+ If a class needs some security and it should not participate in inheritance in this scenario we need to use final class.
+We can not extend final class.
+Can we declare interface as final?
+No We can not declare interface as final because interface should be implemented by some class so its not possible to declare interface as final.
+Is it possible to declare final variables without initialization?
+No. Its not possible to declare a final variable without initial value assigned.
+While declaring itself we need to initialize some value and that value can not be change at any time.
+Can we declare constructor as final?
+ No . Constructors can not be final.
+What will happen if we try to override final methods in sub classes?
+Compile time error will come :Cannot override the final method from Super Class
+ 
+
+Update Your Skills form Our Experts:  Core Java Online Training
+
+Can we create object for final class?
+ Yes we can create object for final class
+What is java static import?
+In Java, static import concept is introduced in 1.5 version access the static members of a class directly without class name or any object
+For example, System class & Math class has static method: import static java.lang.System.*;
+import static java.lang.Math.*; public class MyStaticImportTest { public static void main(String[] a) {
+System.out.println(sqrt(625));
+}
+}
+}
+What is Drawback of Static Import in Java?
+If two static members of the same name are imported from multiple different classes, the compiler will throw an error, as it will not be able to determine which member to use in the absence of class name qualification.
+EX:
+import static java.lang.System.*; import static java.lang.Integer.*; import static java.lang.Byte.*; class Demo
+{
+public static void main(String[] args)
+{
+out.println(MAX_VALUE);
+}
+}
+Output:
+Error:Reference to MAX_VALUE is ambigious
+
+What is the Difference between import and static import?
+
+Is Java platform independent?
+Yes. Java is a platform independent language. We can write java code on one platform and run it on another platform. For e.g. we can write and compile the code on windows and can run the generated bytecode on Linux or any other supported platform. This is one of the main features of java.
+
+ What all memory areas are allocated by JVM?
+Classloader, Class area, Heap, Stack, Program Counter Register and Native Method Stack
+
+What is javac ?
+The javac is a compiler that compiles the source code of your program and generates bytecode. In simple words javac produces the java byte code from the source code written *.java file. JVM executes the bytecode to run the program.
+What is class?
+A class is a blueprint or template or prototype from which you can create the object of that class. A class has set of properties and methods that are common to its objects.
+
+What is a wrapper class in Java?
+A wrapper class converts the primitive data type such as int, byte, char, boolean etc. to the objects of their respective classes such as Integer, Byte, Character, Boolean etc.
+
+What is a path and classPath in Java?
+Path specifies the location of .exe files. Classpath specifies the location of bytecode (.class files).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

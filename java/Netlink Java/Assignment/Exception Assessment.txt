@@ -1,0 +1,49 @@
+1. create a small java program where we will perform some illegal operations like division by zero without using java try-catch block and with using try-catch block.
+
+
+
+2. create a java program for multiple catch blocks.
+Case : 1 what is an unreachable statement in catch block elaborate with an example.
+
+
+
+3. create three java programs for a nested try block. for each case, we have coverd it.
+Case 1. when exception comes at outer try block
+Case 2. when exception comes at inner try block
+Case 3. when there is no exception
+
+
+
+4. Create a program for finally block
+case 1. when there is no exception
+case 2. when there is exception in try block
+
+5. Create a program for where an exception occurs in catch block only. In this case, what will be the control flow?
+
+
+
+6. Create a program for where exception occurs in finally block then what will be control flow?
+
+
+
+7. Create a program Suppose exceptions occur in try block as well as finally block but the thrown exception object has not matched with the corresponding catch block. In this case, what will be output of the program?
+
+
+
+8. Create a program where we will return a value in the try block but will not return a value at the end of method and see what error comes?
+
+
+
+9. Create a program where we will return a value in the try block as well as at the end of method.
+
+
+
+10. Create a program where we will write a statement after the return statement and see what happens?
+
+
+
+11. Create a program where an exception will occur in try block but returning a value in try block and at the end of method.
+
+
+
+12. Create a program where finally block is not executed.

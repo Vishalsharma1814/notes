@@ -1,0 +1,42 @@
+1. create class and create two methods, the first method sum() will perform addition of two numbers and second method sum() will perform addition of three numbers by overloading concept.
+
+
+
+2. create class where we will create two methods having the same name but will differ in the data type of parameters.
+The first method sub() will receive two integer arguments and the second method sub() will receive two double arguments.
+
+
+
+3. Create a program where we will overload methods by changing thesequence of data type of parameters.
+
+
+
+4. create a program where method overloading will be done in the child class or subclass. We will make a relationship between the parent class and child class by using extends keyword.
+
+
+
+We will create one method msg() in the parent class and second method msg() in the child class or subclass. While calling from the class ‘Test’, the msg() will receive int argument and double argument.
+
+
+
+5. create program for overloading where we will keep return type different, method name, and argument list the same.
+
+
+
+6. create program where we will declare overridden method as private in superclass and see that it is visible in subclass or not.
+
+
+
+7. create program where we will declare the overriding method as final in the subclass and will try to override method in sub – sub class.
+
+
+
+8. create programs based on covariant return types in Java take parent class method return type Number and sub class return type Integer and call it from main method.  ****
+
+
+
+9. create programs based on the automatic type promotion concept.
+
+
+*****
+10. Create a program for both aggregation and composition in Has-a relationship.

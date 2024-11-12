@@ -1,0 +1,27 @@
+
+
+1. Create a program where we will declare a constructor of the class as private and try to create an object of that class. But, we will get a compile-time error.
+
+
+
+2. Create a program, and create two packages pack1 and pack2. try to access class-A from outside its package since class A is a default, not public.
+
+
+
+3. Create a program, and create two packages pack1 and pack2. The Student class of pack1 package is public. So, it can be accessed from outside the package. But the name() method of this package is declared as protected. So, it can be accessed from outside the class only through inheritance.
+
+
+
+4. Create a program, and create two packages and the classes in the packages will be having the default access modifiers and we will try to access a class from one package from a class of the second package.
+
+
+
+5. Create a program and create one final instance and final static variable and how many way we can initilize both variable explain it on example.
+
+
+
+6. Create a program and create two abstract classes ( A and B ) both classes have different methods and extend B class with A-class. now create new class which extending B class implement all the abstract method.
+
+
+
+7. Create a program and create two packages pack and mypack. We are accessing the A class from outside its package, since A class is not public, so it cannot be accessed from outside the package.

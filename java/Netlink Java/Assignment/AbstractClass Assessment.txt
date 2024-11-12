@@ -1,0 +1,29 @@
+Java Practice Questions on Abstract Classes & Interfaces
+
+
+
+1.Create an abstract class pen with methods write () and refill () as abstract methods
+
+
+
+2. Use the pen class from Q1 to create a concrete class fountain pen with additional method change Nib ()
+
+
+
+3. Create a class monkey with jump ( ) and bite ( ) methods Create a class human whichinherits this monkey class and implements basic animal interface with eat ( ) and sleep methods
+
+
+
+4. Create a class telephone with ( ) , lift ( ) and disconnected ( ) methods as abstract methods create another class smart telephone and demonstrate polymorphism
+
+
+
+5. Demonstrate polymorphism using using monkey class from Q3.
+
+
+
+6. Create an interface TVremote and use it to inherit another interface smart TVremote
+
+
+
+7. Create a class TV which implements TVremote interface from Q6
